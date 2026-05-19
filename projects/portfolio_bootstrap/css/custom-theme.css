@@ -1,21 +1,38 @@
-/* custom-theme.css */
-
-/* ==========================================================================
-   COMMIT 1: Override Bootstrap Primary Color
-   ========================================================================== */
-
 :root {
-    /* Primary: Teal 500 */
     --bs-primary: #14b8a6;
     --bs-primary-rgb: 20, 184, 166;
-    --bs-primary-hover: #0d9488; /* Teal 600 */
-
-    /* Secondary: Slate 500 */
+    --bs-primary-hover: #0d9488;
     --bs-secondary: #64748b;
     --bs-secondary-rgb: 100, 116, 139;
+    --bs-light: #f8fafc;
+    --bs-dark: #0f172a;
+    --bs-body-color: #334155;
+    --bs-body-bg: #f8fafc;
+    --bs-border-color: #e2e8f0;
+    --teal-100: #ccfbf1;
 }
 
-/* Button overrides since we are overriding CSS variables directly */
+body {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+}
+
+h1, h2, h3, h4, h5, h6, .text-dark, .navbar-brand {
+    color: var(--bs-dark) !important;
+}
+
+.bg-light {
+    background-color: var(--bs-light) !important;
+}
+
+.text-muted {
+    color: var(--bs-secondary) !important;
+}
+
+.border, .border-top, .border-bottom, .border-start, .border-end {
+    border-color: var(--bs-border-color) !important;
+}
+
 .btn-primary {
     background-color: var(--bs-primary);
     border-color: var(--bs-primary);
@@ -32,4 +49,25 @@
 
 .bg-primary {
     background-color: var(--bs-primary) !important;
+}
+
+.py-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.gap-4 { 
+    gap: 2rem !important; 
+}
+
+.card {
+    border-radius: 16px;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.form-control, .form-select {
+    border-radius: 10px;
 }
