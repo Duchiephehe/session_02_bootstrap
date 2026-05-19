@@ -1,0 +1,35 @@
+/* custom-theme.css */
+
+/* ==========================================================================
+   COMMIT 1: Override Bootstrap Primary Color
+   ========================================================================== */
+
+:root {
+    /* Primary: Teal 500 */
+    --bs-primary: #14b8a6;
+    --bs-primary-rgb: 20, 184, 166;
+    --bs-primary-hover: #0d9488; /* Teal 600 */
+
+    /* Secondary: Slate 500 */
+    --bs-secondary: #64748b;
+    --bs-secondary-rgb: 100, 116, 139;
+}
+
+/* Button overrides since we are overriding CSS variables directly */
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--bs-primary-hover);
+    border-color: var(--bs-primary-hover);
+}
+
+.text-primary {
+    color: var(--bs-primary) !important;
+}
+
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
