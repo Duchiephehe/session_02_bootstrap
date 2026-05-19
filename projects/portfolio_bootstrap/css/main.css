@@ -1,3 +1,5 @@
+@import url('blog.css');
+@import url('comments.css');
 
 body {
     font-family: 'Inter', sans-serif;
