@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog — Bui Duc Hiep</title>
+    <meta name="description" content="Blog chia sẻ kiến thức lập trình của Bui Duc Hiep, sinh viên Kỹ thuật phần mềm.">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top border-bottom bg-white">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-5" href="index.html">bui duc hiep.</a>
+            <button class="navbar-toggler border-0" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-2">
+                    <li class="nav-item"><a class="nav-link fw-medium" href="index.html#work">work</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="index.html#about">about</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium active" href="blog.html">blog</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="index.html#contact">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="py-5 border-bottom bg-light">
+        <div class="container py-3">
+            <h1 class="display-5 fw-bold mb-2">Blog</h1>
+            <p class="lead text-muted mb-0">Chia sẻ kiến thức về lập trình, web development và công nghệ.</p>
+        </div>
+    </div>
+
+    <section id="blog" class="py-5">
+        <div class="container">
+            <div class="row g-5">
+
+                <div class="col-lg-8">
+
+                    <article class="card mb-4 border-0 shadow-sm rounded-3 overflow-hidden">
+                        <img src="https://placehold.co/800x400/111827/ffffff?text=Bootstrap+5+Tips"
+                             class="card-img-top" alt="Bootstrap 5 Tips" style="height: 220px; object-fit: cover;">
+                        <div class="card-body p-4">
+                            <span class="badge bg-primary rounded-pill mb-2">Technology</span>
+                            <h2 class="card-title h4 fw-bold mt-2">
+                                <a href="#" class="text-dark text-decoration-none">
+                                    Bootstrap 5 Tips — Những class tôi dùng nhiều nhất
+                                </a>
+                            </h2>
+                            <p class="card-text text-muted small mb-3">
+                                <i class="bi bi-person me-1"></i>Bui Duc Hiep
+                                <span class="mx-2">·</span>
+                                <i class="bi bi-calendar3 me-1"></i>15 Jan 2026
+                                <span class="mx-2">·</span>
+                                <i class="bi bi-clock me-1"></i>5 min read
+                            </p>
+                            <p class="card-text text-muted">
+                                Sau một học kỳ học Bootstrap 5, tôi tổng hợp lại những utility class mình sử dụng
+                                nhiều nhất: từ spacing, typography đến flexbox và grid system. Bài viết phù hợp
+                                cho sinh viên mới bắt đầu với framework CSS.
+                            </p>
+                            <a href="#" class="btn btn-outline-dark btn-sm fw-semibold px-4">
+                                Đọc tiếp <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card mb-4 border-0 shadow-sm rounded-3 overflow-hidden">
+                        <img src="https://placehold.co/800x400/1e3a5f/ffffff?text=Java+Spring+Boot"
+                             class="card-img-top" alt="Java Spring Boot" style="height: 220px; object-fit: cover;">
+                        <div class="card-body p-4">
+                            <span class="badge bg-success rounded-pill mb-2">Backend</span>
+                            <h2 class="card-title h4 fw-bold mt-2">
+                                <a href="#" class="text-dark text-decoration-none">
+                                    Xây dựng REST API với Java Spring Boot từ A đến Z
+                                </a>
+                            </h2>
+                            <p class="card-text text-muted small mb-3">
+                                <i class="bi bi-person me-1"></i>Bui Duc Hiep
+                                <span class="mx-2">·</span>
+                                <i class="bi bi-calendar3 me-1"></i>20 Dec 2025
+                                <span class="mx-2">·</span>
+                                <i class="bi bi-clock me-1"></i>10 min read
+                            </p>
+                            <p class="card-text text-muted">
+                                Hướng dẫn xây dựng một REST API hoàn chỉnh với Spring Boot: từ setup project,
+                                cấu hình database MySQL, đến viết CRUD endpoints và xử lý exception. Dự án
+                                Student Management System mình làm trong môn học.
+                            </p>
+                            <a href="#" class="btn btn-outline-dark btn-sm fw-semibold px-4">
+                                Đọc tiếp <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="card mb-4 border-0 shadow-sm rounded-3 overflow-hidden">
+                        <img src="https://placehold.co/800x400/7c3aed/ffffff?text=React+Hooks"
+                             class="card-img-top" alt="React Hooks" style="height: 220px; object-fit: cover;">
+                        <div class="card-body p-4">
+                            <span class="badge bg-warning text-dark rounded-pill mb-2">Frontend</span>
+                            <h2 class="card-title h4 fw-bold mt-2">
+                                <a href="#" class="text-dark text-decoration-none">
+                                    React Hooks — useState và useEffect giải thích bằng ví dụ thực tế
+                                </a>
+                            </h2>
+                            <p class="card-text text-muted small mb-3">
+                                <i class="bi bi-person me-1"></i>Bui Duc Hiep
+                                <span class="mx-2">·</span>
+                                <i class="bi bi-calendar3 me-1"></i>5 Nov 2025
+                                <span class="mx-2">·</span>
+                                <i class="bi bi-clock me-1"></i>8 min read
+                            </p>
+                            <p class="card-text text-muted">
+                                React Hooks đã thay đổi cách chúng ta viết component. Trong bài này, tôi giải thích
+                                useState và useEffect qua các ví dụ thực tế từ dự án E-commerce Platform mình đang
+                                xây dựng: giỏ hàng, fetch API, và side effects.
+                            </p>
+                            <a href="#" class="btn btn-outline-dark btn-sm fw-semibold px-4">
+                                Đọc tiếp <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="col-lg-4">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-top py-4 mt-5">
+        <div class="container d-flex justify-content-between align-items-center">
+            <span class="fw-semibold small">bui duc hiep.</span>
+            <span class="text-muted small">© 2025 · Sinh viên KTPM · Đại học Thủy Lợi</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
